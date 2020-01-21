@@ -1,0 +1,29 @@
+@import '~antd/dist/antd.css';
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  border: none;
+}
+
+.away-team {
+  text-align: right;   
+}
+
+.team-logo {
+  width: 16px;
+}
+
+.ant-card-body {
+  padding: 14px;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+  padding: 4px 4px;
+}
